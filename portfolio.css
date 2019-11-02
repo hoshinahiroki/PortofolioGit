@@ -1,0 +1,86 @@
+
+body{
+background: linear-gradient(90deg, #DDDDDD,#666666) ;
+background:  repeating-linear-gradient(to right, #666666, #666666 20px, white 20px, white 40px);
+}
+
+/*タイトル*/
+h1 {
+background-color: dimgray;
+width: 600px;
+margin: 10px auto;
+padding: 30px;
+font-size: 80px;
+color: black;
+text-align: center;
+}
+
+/*プロフィール部分*/
+h2 {
+    background-color: dimgray;
+    width: 600px;
+    margin: 10px auto;
+    padding: 30px;
+    font-size: 50px;
+    color: ghostwhite;
+    text-align: center;
+}
+h2 a{
+    color:ghostwhite;
+}
+h2:hover{
+    background-color: #AAAAAA;
+}
+h2 a:hover{
+    color: black;
+}
+
+/*ポートフォリオ部分*/
+.content {
+    background:  repeating-linear-gradient(to bottom, #666666, #666666 20px, white 20px, white 40px);
+    text-align: center;
+}
+
+/*ポートフォリオ部分の左列*/
+.content .leftc {
+    display: inline-block;
+    background-color: dimgray;
+    width:500px;
+    margin: 10px;
+    padding: 30px;
+    font-size: 50px;
+    color: ghostwhite;
+
+}
+.content .leftc h3 {
+}
+.content .leftc h3 a{
+        color:ghostwhite;
+}
+.content .leftc h3:hover{
+       background-color: #AAAAAA;
+}
+
+.content .rightc {
+    display: inline-block;
+    background-color: ghostwhite;
+    width:500px;
+    margin: 10px;
+    padding: 30px;
+    font-size: 50px;
+    color: dimgray;
+}
+
+/*ポートフォリオ部分の右列*/
+.content .rightc h3 {
+}
+.content .rightc h3 a{
+    color: dimgray;
+}
+.content .rightc h3:hover{
+    background-color: #AAAAAA;
+}
+
+/*a{
+    text-decoration: none;
+}*/
